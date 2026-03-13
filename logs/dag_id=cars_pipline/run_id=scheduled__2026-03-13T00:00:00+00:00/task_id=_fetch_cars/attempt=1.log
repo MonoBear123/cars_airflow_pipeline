@@ -1,7 +1,0 @@
-{"timestamp":"2026-03-13T15:20:13.383127Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
-{"timestamp":"2026-03-13T15:20:13.383822Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
-{"timestamp":"2026-03-13T15:20:17.098204Z","level":"info","event":"Fetching all cars from the API...","logger":"unusual_prefix_289bd644e8fdb0eda46a6bf83cc0de80ed09771c_cars_pipeline","filename":"cars_pipeline.py","lineno":30}
-{"timestamp":"2026-03-13T15:20:17.321840Z","level":"warning","event":"empty cryptography key - values will not be stored encrypted.","logger":"airflow.models.crypto","filename":"crypto.py","lineno":82}
-{"timestamp":"2026-03-13T15:20:24.711918Z","level":"info","event":"Fetched 37264 car records","logger":"unusual_prefix_289bd644e8fdb0eda46a6bf83cc0de80ed09771c_cars_pipeline","filename":"cars_pipeline.py","lineno":33}
-{"timestamp":"2026-03-13T15:20:25.278680Z","level":"info","event":"Saved cars to /data/custom_hook/cars.json","logger":"unusual_prefix_289bd644e8fdb0eda46a6bf83cc0de80ed09771c_cars_pipeline","filename":"cars_pipeline.py","lineno":40}
-{"timestamp":"2026-03-13T15:20:25.283275Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":215}
